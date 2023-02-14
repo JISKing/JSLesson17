@@ -15,5 +15,3 @@ let access = confirm("Are you admin?");
 alert(
   `Your fullname is: ${firstName} ${surName}, your age is: ${age}, admin status: ${access}`
 );
-
-// console.log(Boolean(alert('5')));
