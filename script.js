@@ -11,8 +11,9 @@ alert(`Your fullname is: ${firstName} ${surName}`);
 let age = prompt("How old are you?");
 alert(`Your fullname is: ${firstName} ${surName}, your age is: ${age}`);
 
-alert("Are you admin?");
-
+let access = confirm("Are you admin?");
 alert(
-  `Your fullname is: ${firstName} ${surName}, your age is: ${age}, admin status: true`
+  `Your fullname is: ${firstName} ${surName}, your age is: ${age}, admin status: ${access}`
 );
+
+// console.log(Boolean(alert('5')));
